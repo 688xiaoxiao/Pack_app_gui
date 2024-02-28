@@ -10,4 +10,5 @@ OPERATOR = ACCOUNT
 
 
 APP_BUILD_BASE_URL = "https://appff.zeekrlife.com/#/appServe/jobList?appid="
-CHROME_DRIVER_PATH  = r"D:\Programs\chromedriver\chromedriver-win64\chromedriver.exe"
+# CHROME_DRIVER_PATH  = r"D:\Programs\chromedriver\chromedriver-win64\chromedriver.exe"
+CHROME_DRIVER_PATH  = r"r"chromedriver-win64\chromedriver.exe""
