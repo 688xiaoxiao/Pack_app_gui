@@ -1,0 +1,65 @@
+[0118/101649.281:INFO:CONSOLE(72)] "ZeekrUI v3.1.1-beta.2", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (72)
+[0118/101651.505:INFO:CONSOLE(72)] "缁撴灉 ", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (72)
+[0118/101652.192:INFO:CONSOLE(32)] "WebOfficeSDK JS-SDK V1.1.19", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (32)
+[0118/101652.210:INFO:CONSOLE(72)] "ZeekrUI v3.1.1-beta.2", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (72)
+[0118/101653.108:INFO:CONSOLE(85)] "[object Object]", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (85)
+[0118/101653.109:INFO:CONSOLE(85)] "[object Object]", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (85)
+[0118/101653.114:INFO:CONSOLE(85)] "[object Object]", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (85)
+[0118/101653.114:INFO:CONSOLE(85)] "[object Object]", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (85)
+[0118/101653.115:INFO:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'status')", source: https://appff.zeekrlife.com/chunk-ac5d66e0.50d2294b28c4c0d966ec.js (1)
+[0118/101653.115:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'status')", source: https://appff.zeekrlife.com/chunk-47a3baef.50d2294b28c4c0d966ec.js (1)
+[0118/101653.115:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'status')", source: https://appff.zeekrlife.com/chunk-47a3baef.50d2294b28c4c0d966ec.js (1)
+[0118/101653.116:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'status')", source: https://appff.zeekrlife.com/chunk-47a3baef.50d2294b28c4c0d966ec.js (1)
+[0118/101653.116:INFO:CONSOLE(85)] "[object Object]", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (85)
+[0118/101653.116:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'status')", source: https://appff.zeekrlife.com/chunk-47a3baef.50d2294b28c4c0d966ec.js (1)
+[0118/101857.563:INFO:CONSOLE(85)] "[object Object]", source: https://appff.zeekrlife.com/chunk-vendors.50d2294b28c4c0d966ec.js (85)
+[0118/101857.587:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'status')", source: https://appff.zeekrlife.com/chunk-47a3baef.50d2294b28c4c0d966ec.js (1)
+Traceback (most recent call last):
+  File "d:\UI_Auto\gui_demo\base.py", line 248, in save_qr_code
+    status_value = self.get_1st_status_value()[0]
+  File "d:\UI_Auto\gui_demo\base.py", line 215, in get_1st_status_value
+    self.filter_operator()
+  File "d:\UI_Auto\gui_demo\base.py", line 173, in filter_operator
+    self.wait.until(EC.visibility_of_element_located(self.operator_loc)).send_keys(ACCOUNT)
+  File "D:\Programs\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 86, in until
+    value = method(self._driver)
+  File "D:\Programs\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 151, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "D:\Programs\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "D:\Programs\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "D:\Programs\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=120.0.6099.217)
+Stacktrace:
+        GetHandleVerifier [0x00007FF64E6282B2+55298]
+        (No symbol) [0x00007FF64E595E02]
+        (No symbol) [0x00007FF64E4505AB]
+        (No symbol) [0x00007FF64E43E19B]
+        (No symbol) [0x00007FF64E43DDF0]
+        (No symbol) [0x00007FF64E4524A1]
+        (No symbol) [0x00007FF64E4CA18F]
+        (No symbol) [0x00007FF64E4B1E83]
+        (No symbol) [0x00007FF64E48670A]
+        (No symbol) [0x00007FF64E487964]
+        GetHandleVerifier [0x00007FF64E9A0AAB+3694587]
+        GetHandleVerifier [0x00007FF64E9F728E+4048862]
+        GetHandleVerifier [0x00007FF64E9EF173+4015811]
+        (No symbol) [0x00007FF64E5A0CE8]
+        (No symbol) [0x00007FF64E59CF34]
+        (No symbol) [0x00007FF64E59D062]
+        (No symbol) [0x00007FF64E58D3A3]
+        BaseThreadInitThunk [0x00007FFBBA087034+20]
+        RtlUserThreadStart [0x00007FFBBB8FD241+33]
+
+
+
+
+Exception has occurred: TypeError
+'NoneType' object is not iterable
+  File "D:\UI_Auto\gui_demo\pack_app_gui_v23.9.1.py", line 121, in exe_sub_process
+    left_status_info = {key: value for key, value in zip(STATUS_FIELDS, left_status_info)}
+TypeError: 'NoneType' object is not iterable
